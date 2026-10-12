@@ -1,0 +1,7 @@
+[
+  { "id": "low-energy", "when": { "energy": "baja", "maxMinutes": 2 }, "prefer": ["leer", "escuchar"] },
+  { "id": "overwhelm", "when": { "need": "saturación", "minMinutes": 5 }, "prefer": ["acción", "escribir"] },
+  { "id": "self-esteem", "when": { "need": "autoestima" }, "categories": ["autoestima"] },
+  { "id": "short", "when": { "maxMinutes": 1 }, "maxActions": 1 },
+  { "id": "unsure", "when": { "need": "no sé" }, "alternatives": 2 }
+]
